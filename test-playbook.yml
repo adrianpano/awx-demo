@@ -1,6 +1,6 @@
 ---
 - name: IOS facts
-  hosts: all
+  hosts: gns3_router_group
   gather_facts: true
   strategy: free
   tasks:
